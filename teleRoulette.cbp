@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="teleRoulette" />
+		<Option makefile_is_custom="1" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Option virtualFolders="addons/;src/;build config/;addons/ofxJSON/libs/jsoncpp/include/json/;addons/ofxThreadedYouTubeVideo/src/;addons/ofxJSON/libs/jsoncpp/src/;addons/ofxJSON/src/;" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/$(PROJECT_NAME)_debug" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="bin" />
+				<Option object_output="obj/Debug/" />
+				<Option external_deps="../../../libs/openFrameworksCompiled/lib/linux64/libopenFrameworksDebug.a;" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Option projectLinkerOptionsRelation="2" />
+			</Target>
+			<Target title="Release">
+				<Option output="bin/$(PROJECT_NAME)" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="bin" />
+				<Option object_output="obj/Release/" />
+				<Option external_deps="../../../libs/openFrameworksCompiled/lib/linux64/libopenFrameworks.a;" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Option projectLinkerOptionsRelation="2" />
+			</Target>
+		</Build>
+		<Unit filename="../../../addons/ofxJSON/libs/jsoncpp/include/json/autolink.h">
+			<Option virtualFolder="addons/ofxJSON/libs/jsoncpp/include/json" />
+		</Unit>
+		<Unit filename="../../../addons/ofxJSON/libs/jsoncpp/include/json/config.h">
+			<Option virtualFolder="addons/ofxJSON/libs/jsoncpp/include/json" />
+		</Unit>
+		<Unit filename="../../../addons/ofxJSON/libs/jsoncpp/include/json/features.h">
+			<Option virtualFolder="addons/ofxJSON/libs/jsoncpp/include/json" />
+		</Unit>
+		<Unit filename="../../../addons/ofxJSON/libs/jsoncpp/include/json/forwards.h">
+			<Option virtualFolder="addons/ofxJSON/libs/jsoncpp/include/json" />
+		</Unit>
+		<Unit filename="../../../addons/ofxJSON/libs/jsoncpp/include/json/json.h">
+			<Option virtualFolder="addons/ofxJSON/libs/jsoncpp/include/json" />
+		</Unit>
+		<Unit filename="../../../addons/ofxJSON/libs/jsoncpp/include/json/reader.h">
+			<Option virtualFolder="addons/ofxJSON/libs/jsoncpp/include/json" />
+		</Unit>
+		<Unit filename="../../../addons/ofxJSON/libs/jsoncpp/include/json/value.h">
+			<Option virtualFolder="addons/ofxJSON/libs/jsoncpp/include/json" />
+		</Unit>
+		<Unit filename="../../../addons/ofxJSON/libs/jsoncpp/include/json/writer.h">
+			<Option virtualFolder="addons/ofxJSON/libs/jsoncpp/include/json" />
+		</Unit>
+		<Unit filename="../../../addons/ofxJSON/libs/jsoncpp/src/json_batchallocator.h">
+			<Option virtualFolder="addons/ofxJSON/libs/jsoncpp/src" />
+		</Unit>
+		<Unit filename="../../../addons/ofxJSON/libs/jsoncpp/src/json_reader.cpp">
+			<Option virtualFolder="addons/ofxJSON/libs/jsoncpp/src" />
+		</Unit>
+		<Unit filename="../../../addons/ofxJSON/libs/jsoncpp/src/json_tool.h">
+			<Option virtualFolder="addons/ofxJSON/libs/jsoncpp/src" />
+		</Unit>
+		<Unit filename="../../../addons/ofxJSON/libs/jsoncpp/src/json_value.cpp">
+			<Option virtualFolder="addons/ofxJSON/libs/jsoncpp/src" />
+		</Unit>
+		<Unit filename="../../../addons/ofxJSON/libs/jsoncpp/src/json_writer.cpp">
+			<Option virtualFolder="addons/ofxJSON/libs/jsoncpp/src" />
+		</Unit>
+		<Unit filename="../../../addons/ofxJSON/src/ofxJSONElement.cpp">
+			<Option virtualFolder="addons/ofxJSON/src" />
+		</Unit>
+		<Unit filename="../../../addons/ofxJSON/src/ofxJSONElement.h">
+			<Option virtualFolder="addons/ofxJSON/src" />
+		</Unit>
+		<Unit filename="../../../addons/ofxThreadedYouTubeVideo/src/ofxThreadedYouTubeVideo.cpp">
+			<Option virtualFolder="addons/ofxThreadedYouTubeVideo/src/" />
+		</Unit>
+		<Unit filename="../../../addons/ofxThreadedYouTubeVideo/src/ofxThreadedYouTubeVideo.h">
+			<Option virtualFolder="addons/ofxThreadedYouTubeVideo/src" />
+		</Unit>
+		<Unit filename="config.make">
+			<Option virtualFolder="build config" />
+		</Unit>
+		<Unit filename="src/main.cpp">
+			<Option virtualFolder="src/" />
+		</Unit>
+		<Unit filename="src/ofApp.cpp">
+			<Option virtualFolder="src/" />
+		</Unit>
+		<Unit filename="src/ofApp.h">
+			<Option virtualFolder="src/" />
+		</Unit>
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
